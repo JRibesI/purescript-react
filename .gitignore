@@ -1,12 +1,29 @@
-
-bower_components/
+# Dependencias
 node_modules/
-.pulp-cache/
+bower_components/
+
+# Archivos de construcción
+dist/
 output/
 output-es/
-generated-docs/
+.spago/
+.pulp-cache/
+.purescript/
 .psc-package/
-.psc*
 .purs*
 .psa*
-.spago
+.spago.lock
+
+# Parcel
+.parcel-cache/
+
+# Archivos generados
+generated-docs/
+
+# Repl e IDE
+.psc-ide-port
+.purs-repl
+
+# Archivos del sistema
+.DS_Store
+*.log
